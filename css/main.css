@@ -1,0 +1,41 @@
+* {
+    margin: 5%;
+}
+
+html {
+    background-color: #F2F2F0;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+
+h2 {
+    font-family: "DM Sans", sans-serif;
+     font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color: #FF66C4;
+}
+
+.navigation {
+    text-decoration: none;
+    text-align: justify;
+
+}
+
+#logo {
+    flex-wrap: wrap;
+    width: 25px;
+    height: auto;
+}
