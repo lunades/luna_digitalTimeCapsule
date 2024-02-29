@@ -28,14 +28,15 @@ h2 {
     color: #FF66C4;
 }
 
-.navigation {
+a .navigation {
     text-decoration: none;
     text-align: justify;
-
+    display: flex;
 }
 
 #logo {
     flex-wrap: wrap;
-    width: 25px;
+    width: 200px;
     height: auto;
+    display: flexbox;
 }
