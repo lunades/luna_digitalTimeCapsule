@@ -1,5 +1,5 @@
 * {
-    margin: 5%;
+    margin: 0;
 }
 
 html {
@@ -7,10 +7,56 @@ html {
 }
 
 body {
+    background-color:aquamarine;
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: 250;
     font-style: normal;
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0
+}
+
+#logo {
+    flex-wrap: nowrap;
+    padding: 0;
+    width: 25%;
+    height: 100%;
+    display: flexbox;
+    align-self: flex-start;
+}
+
+#navigation {
+    width: 100%;
+    background-color: rgb(109, 109, 194);
+
+    text-decoration: none;
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    background-color: #D5E6E0;
+    padding: 5%;
+    margin: 1px;
+    text-align:center;
+    vertical-align: top;
+    border-radius: 40px;
+}
+
+#mainContent {
+
 }
 
 h1 {
@@ -28,15 +74,3 @@ h2 {
     color: #FF66C4;
 }
 
-a .navigation {
-    text-decoration: none;
-    text-align: justify;
-    display: flex;
-}
-
-#logo {
-    flex-wrap: wrap;
-    width: 200px;
-    height: auto;
-    display: flexbox;
-}
