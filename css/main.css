@@ -20,38 +20,40 @@ body {
 
 #header {
     width: 100%;
-    height: auto;
+    height: 10%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    align-content:space-between;
-    margin: 0
+    margin: 0;
 }
 
-#header a {
+#logo {
     flex-wrap: nowrap;
-    padding: 0;
-    width: 20%;
-    height: 100%;
+    padding-top: 10%;
+    width: 30%;
+    height: auto;
     display: flexbox;
     align-self:flex-start;
     vertical-align: bottom;
 }
 
-#dtc {
+#header h1 {
+    margin: 5%;
     width: 35%;
-    margin: 0 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content:flex-end;
 }
 
 #navigation {
-    width: 30%;
+    width: 35%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: flex-end;
-    margin-left: 5%;
     padding-bottom: 2%;
-}
+} 
 
 button {
     /* text */
@@ -66,6 +68,7 @@ button {
     /* margin, padding, border */
     padding: 15px;
     margin-right: 5%;
+    margin-top: 3%;
     border-style: solid;
     border-color: black;
     border-width: 1px;
