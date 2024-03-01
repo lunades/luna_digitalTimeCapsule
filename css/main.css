@@ -2,64 +2,93 @@
     margin: 0;
 }
 
-html {
-    background-color: #F2F2F0;
-}
-
 body {
-    background-color:aquamarine;
+    background-color: #F2F2F0;
+    /* text style */
     font-family: "DM Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 250;
+    font-weight: 500;
     font-style: normal;
+    /* box/layout */
     display:flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 #header {
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    align-content:space-between;
     margin: 0
 }
 
-#logo {
+#header a {
     flex-wrap: nowrap;
     padding: 0;
-    width: 25%;
+    width: 20%;
     height: 100%;
     display: flexbox;
-    align-self: flex-start;
+    align-self:flex-start;
+    vertical-align: bottom;
+}
+
+#dtc {
+    width: 35%;
+    margin: 0 5%;
 }
 
 #navigation {
-    width: 100%;
-    background-color: rgb(109, 109, 194);
-
-    text-decoration: none;
-    text-align: justify;
+    width: 30%;
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     align-items: flex-end;
-    justify-content: space-around;
+    margin-left: 5%;
+    padding-bottom: 2%;
 }
 
-a {
-    text-decoration: none;
+button {
+    /* text */
+    justify-content: space-evenly;
+    font-size: 100%;
+    font-weight: 500;
+    line-height: 20px;
+    color: black;
+    /* block style */
+    display:block;
     background-color: #D5E6E0;
-    padding: 5%;
-    margin: 1px;
-    text-align:center;
-    vertical-align: top;
-    border-radius: 40px;
+    /* margin, padding, border */
+    padding: 15px;
+    margin-right: 5%;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 60px;
+}
+
+button a {
+    text-decoration: none;
+}
+
+button:hover {
+    box-shadow: 5px 3px 3px 6px rgba(0, 0, 0, 0.077);
+    text-decoration: overline #FF66C4;
+    font-weight: 900;
 }
 
 #mainContent {
-
+    margin: 6%;
+    margin-top: 1%;
 }
 
 h1 {
+    color: black;
     font-family: "Space Mono", monospace;
     font-weight: 700;
     font-style: normal;

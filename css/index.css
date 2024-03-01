@@ -2,14 +2,31 @@
     margin: 0;
 }
 
+html {
+    background-color:#E6E0FF;
+}
+
 body {
-    margin-right: 8%;
-    margin-left: 8%;
-    display: flex;
-    flex-direction: column;
+    
+    background-color: #F2F2F0;
+    /* text style */
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    /* box/layout */
+    display:flex;
     flex-wrap: nowrap;
+    flex-direction: column;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top:4%;
     justify-content: center;
     align-self: center;
+    /* border */
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+
 }
 
 #logo {
@@ -23,28 +40,38 @@ body {
     display: block;
     justify-content: center;
     align-self: center;
-    width: 50%
-
+    width: 45%;
+    margin-bottom: 50%;
 }
 
-a {
-    font-size: 80%;
+#enter {
+    /* text */
+    font-size: 100%;
+    font-weight: 600;
+    line-height: 60px;
+    text-align:center;
     color: black;
+    /* block style */
     display:block;
-    text-decoration: none;
     background-color: #D5E6E0;
-    padding: 5px;
+    /* margin, padding, border */
+    padding: 1px;
     margin-right: 40%;
     margin-left: 40%;
-    text-align:center;
-    line-height: 100px;
+    margin-bottom: 15px;
     border-style: solid;
     border-color: black;
     border-width: 1px;
     border-radius: 60px;
+    /* hover effect */
 }
 
-h1 #enter:hover {
-    font-weight: bold;
-    box-shadow: 2px 2px 5px rgba (0,0,0,0.5;
+#enter:hover{
+    box-shadow: 5px 3px 3px 6px rgba(0, 0, 0, 0.077);
+    text-decoration: overline #FF66C4;
+    font-weight: 900;
+}
+
+a {
+    text-decoration: none;
 }

@@ -1,0 +1,28 @@
+html {
+    background-color: #CFF2FD;
+}
+
+#mainContent {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#smile {
+   width: 50%;
+   min-width: 400px;
+   align-self: flex-start;
+   vertical-align: middle;
+   margin-top: 3%;
+   margin-right: 3%;
+}
+
+#text {
+   width: 45%;
+   min-width: 400px;
+}
+
+h2 {
+    padding-bottom: 5%;
+    text-align: right;
+}

@@ -1,0 +1,22 @@
+<div id="header">
+<a id= "logo" href="../index.html">
+    <img src="img/lunaLogo.gif" alt="animated logo 'Luna Online'" width="100%">
+</a>
+<div id="navigation">
+  
+    <button>
+      <a href="home.html">home</a>
+    </button>
+
+    <button>
+     <a href="../activity/activity.html">activity</a>
+    </button>
+
+    <button>
+    <a href="../interests/interests.html">interests</a>
+    
+   </button>
+</div>
+</div>
+
+<div id="mainContent">
