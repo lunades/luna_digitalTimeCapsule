@@ -20,17 +20,24 @@ html {
 }
 
 #sectionOne img {
-    width: 45%;
-    padding: 0 20%;
+    width: 35%;
+    padding-left: 50%;
 }
 
 
-#yt {
-    align-self: center;
-    padding: 4%;
+.yt {
+    width: 10%;
 }
 
 #sectionTwo {
+    background-color: blue;
     width: 100%;
     margin: 2% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sectionTwo a {
+    text-decoration: none;
 }
