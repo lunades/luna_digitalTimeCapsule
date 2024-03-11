@@ -70,3 +70,13 @@ html {
 #blockColumn a:visited {
     color: black
 }
+
+.yt #align a {
+    align-self: flex-end;
+    margin-left: 3px;
+}
+
+.yt #align {
+    align-self: flex-end;
+    margin-left: 3px;
+}
