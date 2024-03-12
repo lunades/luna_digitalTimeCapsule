@@ -12,22 +12,55 @@ html {
 }
 
 #smile {
-   width: 40%;
+   width: 45%;
    min-width: 300px;
    align-self: flex-start;
    vertical-align: middle;
    margin-top: 3%;
    margin-right: 1%;
    margin-left: 0;
+   margin-bottom: 0;
 }
 
 #text {
-   width: 58%;
+    margin-top: 3%;
+   width: 50%;
    padding-right: 0;
    margin-right: 0;
+   margin-bottom: 0;
 }
 
 h2 {
     padding-bottom: 2%;
     text-align: right;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-evenly;
+    justify-content: center;
+    padding-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 0;
+}
+
+footer img {
+    width: 20%;
+    align-self: center;
+    margin-left: 8%;
+    padding: 2%;
+    border-radius: 20%;
+}
+
+footer img a {
+    width: 20%;
+    margin-left: 8%;
+    align-self: center;
+}
+
+footer img:hover {
+    box-shadow: 2px 2px 2px 4px rgba(65, 224, 232, 0.282);
 }

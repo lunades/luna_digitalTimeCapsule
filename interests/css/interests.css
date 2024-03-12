@@ -29,6 +29,7 @@ html {
 
 #sectionOne h2 {
     text-align: center;
+
 }
 
 #sectionOne img {
@@ -72,11 +73,11 @@ html {
 }
 
 .yt #align a {
-    align-self: flex-end;
-    margin-left: 3px;
+    margin-right: 2%;
+    padding-right: 5%;
 }
 
 .yt #align {
-    align-self: flex-end;
-    margin-left: 3px;
+    margin-right: 2%;
+    padding-right: 5%;
 }
